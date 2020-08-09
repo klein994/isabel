@@ -1041,6 +1041,14 @@
 }
 
 @media (max-width: 767.98px) {
+    #wtpp2 {
+        display: block !important;
+        top: calc(50% - 10px)!important;
+        right: 20px!important;
+    }
+    #wtpp {
+        display: none;
+    }
     #logo img {
         height: 80px;
     }
