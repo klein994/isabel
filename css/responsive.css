@@ -1041,9 +1041,17 @@
 }
 
 @media (max-width: 767.98px) {
+    .bg2{
+        background-position-x: right !important;
+    }
+ 
+
+    .bg1{
+        background-position-x: right !important;
+    }
     #wtpp2 {
         display: block !important;
-        top: calc(50% - 10px)!important;
+        top: 30px!important;
         right: 20px!important;
     }
     #wtpp {
@@ -1585,6 +1593,11 @@
 }
 
 @media (max-width: 575.98px) {
+    .tittle1{
+        top: 250px;
+        position: relative;
+        color: white !important;
+    }
     .container,
     #header.full-header .container,
     .container-fullwidth {
@@ -1734,10 +1747,12 @@
     .button.button-full i {
         top: 2px !important;
         margin-left: 3px !important;
+ 
     }
     .emphasis-title h1,
     .emphasis-title h2 {
         font-size: 40px !important;
+        
     }
     .error404,
     .error404-wrap .error404 {
